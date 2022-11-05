@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margin_bigger">32dp</dimen>
+    <dimen name="margin_big">24dp</dimen>
+    <dimen name="margin_mid">16dp</dimen>
+    <dimen name="margin_small">12dp</dimen>
+    <dimen name="margin_smaller">8dp</dimen>
+    <dimen name="padding_big">16dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="margin_smallest">8dp</dimen>
+    <dimen name="image_size">200dp</dimen>
+    <dimen name="card_radius">10dp</dimen>
+    <dimen name="btn_size">120dp</dimen>
+    <dimen name="cv_size">350dp</dimen>
+    <dimen name="drawable_padding">10dp</dimen>
+    <dimen name="margin_start">20dp</dimen>
+    <dimen name="margin_end">30dp</dimen>
+    <dimen name="lines_spacing">5dp</dimen>
+    <dimen name="start">40dp</dimen>
+    <dimen name="margin_large">60dp</dimen>
+    <dimen name="heading_image_size">40dp</dimen>
+    <dimen name="heading_image_width">35dp</dimen>
+    <dimen name="text_width">300dp</dimen>
+</resources>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Resume</string>
+    <string name="my_resume">Mein Lebenslauf</string>
+    <string name="job_desc">Ein Teil der Softwareentwickler, die für die Erstellung von Anwendungen verantwortlich sind, um die Arbeit und den Fortschritt der Landwirte in der Farm zu verfolgen.</string>
+    <string name="mobile_intern_n_february_2022_present">Mobiler Praktikant \n Februar 2022 - heute</string>
+    <string name="about_me">Über mich</string>
+    <string name="bsc_mechanical_engineering">BSc. Maschinenbau</string>
+    <string name="back">der Rücken</string>
+    <string name="_2015_2021">2015 – 2021</string>
+    <string name="university_of_lagos">Universität Lagos</string>
+    <string name="february_july_2022">Februar - Juli 2022</string>
+    <string name="tech_accelerator_program">Tech Accelerator-Programm</string>
+    <string name="babban_gona">Babban Gona</string>
+    <string name="clean_code_development">Clean-Code-Entwicklung</string>
+    <string name="kotlin_for_beginners">Kotlin für Anfänger</string>
+    <string name="software_development_processes">Softwareentwicklungsprozesse</string>
+    <string name="agile_software_development">Agile Software Entwicklung</string>
+    <string name="git_amp_github"><![CDATA[Git & GitHub]]></string>
+    <string name="udemy">Udemy</string>
+    <string name="coursera">Coursera</string>
+    <string name="u25cf_great_attention_to_detail">● Große Liebe zum Detail</string>
+    <string name="u25cf_strong_communication_skills">● Starke Kommunikationsfähigkeiten</string>
+    <string name="u25cf_creation_of_erd">● Erstellung von ERD</string>
+    <string name="u25cf_unit_testing">● Unit-Tests</string>
+    <string name="u25cf_excellent_time_management_skills">● Ausgezeichnete Zeitmanagementfähigkeiten</string>
+    <string name="u25cf_team_work">● Teamarbeit</string>
+    <string name="python">Python</string>
+    <string name="kotlin">Kotlin</string>
+    <string name="name">Aderinola Bankole</string>
+    <string name="number">+2348106314720</string>
+    <string name="email">derinola.bankole@gmail</string>
+    <string name="address">Lagos, Nigeria</string>
+    <string name="github">GitHub</string>
+    <string name="android_studio">Android Studio</string>
+    <string name="software_proficiency">Softwarekenntnisse</string>
+    <string name="certification">Zertifizierung</string>
+    <string name="experience_txt">BabbanGona\nMobile Praktikantin \nFebruar 2022- Heute\nTeil der Softwareentwickler, die für die Erstellung von Anwendungen verantwortlich sind, um die Arbeit und den Fortschritt der Landwirte auf der Farm zu verfolgen.</string>
+    <string name="experience">Erfahrung</string>
+    <string name="about_me_desc">Ich habe insgesamt 1 Jahr Erfahrung in der Verwendung von Kotlin, um benutzerfreundliche und interaktive Android-Anwendungen zu erstellen</string>
+    <string name="about_me_text">Ich bin ein Android-Entwickler aus Lagos, Nigeria. Ich bin leidenschaftlich daran interessiert, eine benutzerfreundliche Anwendung zu entwickeln, die in der Lage ist, Probleme zu lösen, mit denen wir in unserem täglichen Leben konfrontiert sind. Mein Hauptziel ist es, meine großartigen Fähigkeiten zum kritischen Denken zu nutzen, um einfachere und schnellere Wege zur Durchführung alltäglicher menschlicher Aktivitäten zu entwickeln.</string>
+    <string name="my_picture">mein Bild</string>
+    <string name="interests">Wählen Sie mich aus</string>
+    <string name="skills">Fähigkeiten</string>
+    <string name="education">Ausbildung</string>
+    <string name="about">Um</string>
+    <string name="profession">Mobiler Entwickler</string>
+    <string name="things_i_will_be_adding_to_the_team_i_join">Gründe, warum Sie mich in Ihrem Team brauchen:</string>
+    <string name="u25cf_interest1">● Ich bin ein guter Kommunikator und das wird nützlich sein, wenn wir zusammenarbeiten müssen, um als Team auf Ideen zu kommen.</string>
+    <string name="u25cf_interest2">● Meine Kotlin-Kenntnisse werden bei der Arbeit an Projekten hilfreich sein. Ich habe auch Kurse besucht, von denen ich glaube, dass sie für das Team nützlich sein werden.</string>
+    <string name="u25cf_interest3">● Meine Arbeitsbereitschaft, um sicherzustellen, dass wir Aufgaben erledigen</string>
+    <string name="u25cf_interest4">● Ich bin ein großartiger Teamplayer. Ich habe mit Teams gearbeitet und werde es im Rahmen dieses Praktikums nicht schwer haben</string>
+    <string name="pick_me_text">Ich bin daran interessiert, einem Team beizutreten, in dem ich gemeinsam lernen und mit Menschen zusammenarbeiten kann, die ebenfalls bereit sind, zu lernen und Wissen mit dem gemeinsamen Ziel des Lernens zu teilen</string>
+    <string name="git_link" translatable="false">" <a href="https://github.com/derin-b">My GitHub Profil</a>"</string>
+    <string name="linked_in"><a href="https://www.linkedin.com/in/aderinola-bankole-8050a6217/">LinkedIn Profil</a></string>
+    <string name="u25cf_interest5">● Ich höre nicht gerne auf, was in Situationen nützlich sein wird, in denen Aufgaben, die uns übertragen werden, für uns schwierig sein werden.</string>
+</resources>

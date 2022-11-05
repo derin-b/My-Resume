@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/padding_big"
+        tools:context=".About">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="@dimen/heading_image_width"
+            android:layout_height="@dimen/heading_image_size"
+            android:contentDescription="@string/back"
+            android:src="@drawable/ic_back"
+            app:layout_constraintEnd_toStartOf="@+id/tv_about"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/tv_about"
+            style="@style/headingText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/about_me"
+            app:layout_constraintStart_toEndOf="@+id/iv_back"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:id="@+id/iv_about"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="@dimen/margin_smallest"
+            android:contentDescription="@string/about"
+            android:src="@drawable/information"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/tv_about"/>
+
+
+
+        <TextView
+            android:id="@+id/tv_about_me"
+            style="@style/Text3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/about_me_text"
+            android:textSize="14sp"
+            android:lineSpacingExtra="@dimen/lines_spacing"
+            android:layout_marginTop="@dimen/margin_mid"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_about" />
+
+
+        <TextView
+            android:id="@+id/tv_about_desc"
+            style="@style/Text3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/about_me_desc"
+            android:textSize="14sp"
+            android:lineSpacingExtra="@dimen/lines_spacing"
+            android:layout_marginTop="@dimen/margin_big"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_about_me" />
+
+        <TextView
+            android:id="@+id/tv_github"
+            style="@style/subHeadingText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/github"
+            android:layout_marginTop="@dimen/margin_bigger"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_about_desc" />
+
+        <ImageView
+            android:id="@+id/iv_github"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginTop="@dimen/margin_smallest"
+            android:src="@drawable/github"
+            android:contentDescription="@string/github"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_github"/>
+
+        <TextView
+            android:id="@+id/tv_github_link"
+            style="@style/Text2"
+            android:textColor="@color/purple_700"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_small"
+            android:layout_marginTop="@dimen/margin_smallest"
+            android:text="@string/git_link"
+            app:layout_constraintBottom_toBottomOf="@+id/iv_github"
+            app:layout_constraintStart_toEndOf="@id/iv_github"
+            app:layout_constraintTop_toTopOf="@+id/iv_github" />
+
+        <TextView
+            android:id="@+id/tv_experience"
+            style="@style/subHeadingText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/experience"
+            android:layout_marginTop="@dimen/margin_bigger"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_github" />
+
+        <TextView
+            android:id="@+id/tv_experience_txt"
+            style="@style/Text3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/experience_txt"
+            android:textSize="14sp"
+            android:lineSpacingExtra="@dimen/lines_spacing"
+            android:layout_marginTop="@dimen/margin_small"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_experience" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Education">
+
+    <ImageView
+        android:id="@+id/iv_back"
+        android:layout_width="@dimen/heading_image_width"
+        android:layout_height="@dimen/heading_image_size"
+        android:layout_marginTop="@dimen/margin_mid"
+        android:contentDescription="@string/back"
+        android:src="@drawable/ic_back"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tv_education"/>
+
+
+    <TextView
+        android:id="@+id/tv_education"
+        style="@style/headingText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/education"
+        android:layout_marginTop="@dimen/margin_mid"
+        app:layout_constraintStart_toEndOf="@id/iv_back"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:id="@+id/iv_education"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="@dimen/margin_mid"
+        android:layout_marginStart="@dimen/margin_smallest"
+        android:contentDescription="@string/certification"
+        android:src="@drawable/graduate"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_education"/>
+
+    <TextView
+        android:id="@+id/tv_school1"
+        style="@style/Text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/babban_gona"
+        android:layout_marginTop="@dimen/margin_big"
+        android:layout_marginStart="@dimen/margin_mid"
+        app:layout_constraintStart_toEndOf="@id/iv_school"
+        app:layout_constraintTop_toBottomOf="@id/tv_education"/>
+
+    <TextView
+        android:id="@+id/tv_school1_desc"
+        style="@style/Text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tech_accelerator_program"
+        android:layout_marginStart="@dimen/margin_mid"
+        app:layout_constraintStart_toEndOf="@id/iv_school"
+        app:layout_constraintTop_toBottomOf="@id/tv_school1"/>
+
+    <TextView
+        android:id="@+id/tv_school1_year"
+        style="@style/Text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/february_july_2022"
+        android:layout_marginStart="@dimen/margin_mid"
+        app:layout_constraintStart_toEndOf="@id/iv_school"
+        app:layout_constraintTop_toBottomOf="@id/tv_school1_desc"/>
+
+    <ImageView
+        android:id="@+id/iv_school2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="@dimen/margin_big"
+        android:contentDescription="@string/certification"
+        android:src="@drawable/instruction"
+        app:layout_constraintStart_toEndOf="@+id/iv_back"
+        app:layout_constraintTop_toBottomOf="@+id/iv_school" />
+
+    <TextView
+        android:id="@+id/tv_school2"
+        style="@style/Text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/university_of_lagos"
+        android:layout_marginTop="@dimen/margin_big"
+        android:layout_marginStart="@dimen/margin_mid"
+        app:layout_constraintStart_toEndOf="@id/iv_school2"
+        app:layout_constraintTop_toBottomOf="@id/tv_school1_year"/>
+
+    <TextView
+        android:id="@+id/tv_school2_desc"
+        style="@style/Text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/bsc_mechanical_engineering"
+        android:layout_marginStart="@dimen/margin_mid"
+        app:layout_constraintStart_toEndOf="@id/iv_school2"
+        app:layout_constraintTop_toBottomOf="@id/tv_school2"/>
+
+    <TextView
+        android:id="@+id/tv_school2_year"
+        style="@style/Text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_2015_2021"
+        android:layout_marginStart="@dimen/margin_mid"
+        app:layout_constraintStart_toEndOf="@id/iv_school2"
+        app:layout_constraintTop_toBottomOf="@id/tv_school2_desc"/>
+
+    <ImageView
+        android:id="@+id/iv_school"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="@dimen/margin_big"
+        android:contentDescription="@string/certification"
+        android:src="@drawable/instruction"
+        app:layout_constraintStart_toEndOf="@+id/iv_back"
+        app:layout_constraintTop_toBottomOf="@+id/tv_education" />
+
+
+    <TextView
+        android:id="@+id/tv_certificate"
+        style="@style/subHeadingText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_bigger"
+        android:text="@string/certification"
+        app:layout_constraintStart_toStartOf="@+id/iv_school2"
+        app:layout_constraintTop_toBottomOf="@id/iv_school2" />
+
+    <ImageView
+        android:id="@+id/iv_certificate"
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="@dimen/margin_smallest"
+        android:layout_marginTop="@dimen/margin_bigger"
+        android:contentDescription="@string/certification"
+        android:src="@drawable/ic_certificate"
+        app:layout_constraintTop_toBottomOf="@+id/iv_school2"
+        app:layout_constraintStart_toEndOf="@+id/tv_certificate"/>
+
+    <FrameLayout
+        android:id="@+id/fl1"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_marginTop="@dimen/margin_big"
+        android:layout_marginStart="@dimen/margin_bigger"
+        android:background="@drawable/circle"
+        app:layout_constraintTop_toBottomOf="@+id/tv_certificate">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/Text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/udemy"
+                android:layout_marginTop="16dp"
+                android:textSize="16sp"
+                android:layout_gravity="top|center"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@drawable/substract" />
+
+            <TextView
+                style="@style/Text3"
+                android:textSize="12sp"
+                android:layout_width="85dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/clean_code_development" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fl2"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="@dimen/margin_big"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_certificate"
+        android:background="@drawable/circle"
+        app:layout_constraintStart_toEndOf="@+id/fl1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/Text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/udemy"
+                android:layout_marginTop="16dp"
+                android:textSize="16sp"
+                android:layout_gravity="top|center"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@drawable/substract" />
+
+
+            <TextView
+                style="@style/Text3"
+                android:textSize="12sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/git_amp_github"
+                android:layout_gravity="center"/>
+        </LinearLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fl3"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="@dimen/margin_big"
+        android:layout_marginStart="@dimen/margin_bigger"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/circle"
+        app:layout_constraintTop_toBottomOf="@+id/fl1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/Text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/coursera"
+                android:layout_marginTop="16dp"
+                android:textSize="16sp"
+                android:layout_gravity="top|center"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@drawable/substract" />
+
+            <TextView
+                style="@style/Text3"
+                android:textSize="12sp"
+                android:layout_width="92dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/agile_software_development" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fl4"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="@dimen/margin_big"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/fl2"
+        android:background="@drawable/circle"
+        app:layout_constraintStart_toEndOf="@+id/fl3">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/Text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/coursera"
+                android:layout_marginTop="16dp"
+                android:textSize="16sp"
+                android:layout_gravity="top|center"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@drawable/substract" />
+
+            <TextView
+                style="@style/Text3"
+                android:textSize="12sp"
+                android:layout_width="89dp"
+                android:layout_height="52dp"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/software_development_processes" />
+        </LinearLayout>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fl5"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginStart="@dimen/margin_bigger"
+        android:layout_marginTop="@dimen/margin_big"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/fl3"
+        android:background="@drawable/circle">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/Text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/udemy"
+                android:layout_marginTop="16dp"
+                android:textSize="16sp"
+                android:layout_gravity="top|center"/>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:background="@drawable/substract" />
+
+            <TextView
+                style="@style/Text3"
+                android:textSize="12sp"
+                android:layout_width="77dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="@string/kotlin_for_beginners" />
+        </LinearLayout>
+    </FrameLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

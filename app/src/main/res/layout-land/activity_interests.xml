@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginEnd="@dimen/padding_big"
+    tools:context=".Interests">
+
+    <ImageView
+        android:id="@+id/iv_back"
+        android:layout_width="@dimen/heading_image_width"
+        android:layout_height="@dimen/heading_image_size"
+        android:layout_marginTop="@dimen/margin_mid"
+        android:contentDescription="@string/back"
+        android:src="@drawable/ic_back"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tv_interest"/>
+
+
+    <TextView
+        android:id="@+id/tv_interest"
+        style="@style/headingText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_mid"
+        android:text="@string/interests"
+        app:layout_constraintStart_toEndOf="@id/iv_back"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/iv_interest"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="@dimen/margin_mid"
+        android:layout_marginStart="@dimen/margin_smallest"
+        android:contentDescription="@string/certification"
+        android:src="@drawable/love"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_interest"/>
+
+    <TextView
+        android:id="@+id/tv_interest_team"
+        style="@style/Text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_mid"
+        android:lineSpacingExtra="@dimen/lines_spacing"
+        android:text="@string/pick_me_text"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/tv_interest"
+        app:layout_constraintTop_toBottomOf="@+id/tv_interest" />
+
+    <TextView
+        android:id="@+id/tv_interest_txt"
+        style="@style/Text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_mid"
+        android:lineSpacingExtra="@dimen/lines_spacing"
+        android:text="@string/things_i_will_be_adding_to_the_team_i_join"
+        app:layout_constraintStart_toStartOf="@+id/tv_interest_team"
+        app:layout_constraintTop_toBottomOf="@+id/tv_interest_team" />
+
+    <TextView
+        android:id="@+id/tv_interest1"
+        style="@style/Text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_mid"
+        android:lineSpacingExtra="@dimen/lines_spacing"
+        android:text="@string/u25cf_interest1"
+        app:layout_constraintStart_toStartOf="@+id/tv_interest_txt"
+        app:layout_constraintTop_toBottomOf="@id/tv_interest_txt" />
+
+    <TextView
+        android:id="@+id/tv_interest2"
+        style="@style/Text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_mid"
+        android:lineSpacingExtra="@dimen/lines_spacing"
+        android:text="@string/u25cf_interest2"
+        app:layout_constraintStart_toStartOf="@+id/tv_interest1"
+        app:layout_constraintTop_toBottomOf="@id/tv_interest1" />
+
+
+    <TextView
+        android:id="@+id/tv_interest3"
+        style="@style/Text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_mid"
+        android:lineSpacingExtra="@dimen/lines_spacing"
+        android:text="@string/u25cf_interest3"
+        app:layout_constraintStart_toStartOf="@+id/tv_interest2"
+        app:layout_constraintTop_toBottomOf="@id/tv_interest2" />
+
+    <TextView
+        android:id="@+id/tv_interest4"
+        style="@style/Text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_mid"
+        android:lineSpacingExtra="@dimen/lines_spacing"
+        android:text="@string/u25cf_interest4"
+        app:layout_constraintStart_toStartOf="@+id/tv_interest3"
+        app:layout_constraintTop_toBottomOf="@id/tv_interest3" />
+
+    <TextView
+        android:id="@+id/tv_interest5"
+        style="@style/Text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_mid"
+        android:lineSpacingExtra="@dimen/lines_spacing"
+        android:text="@string/u25cf_interest5"
+        app:layout_constraintStart_toStartOf="@+id/tv_interest4"
+        app:layout_constraintTop_toBottomOf="@id/tv_interest4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

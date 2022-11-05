@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Skills">
+
+    <ImageView
+        android:id="@+id/iv_back"
+        android:layout_width="@dimen/heading_image_width"
+        android:layout_height="@dimen/heading_image_size"
+        android:layout_marginTop="@dimen/margin_bigger"
+        android:contentDescription="@string/back"
+        android:src="@drawable/ic_back"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/tv_software"/>
+
+
+    <TextView
+        android:id="@+id/tv_software"
+        style="@style/headingText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/software_proficiency"
+        android:layout_marginTop="@dimen/margin_bigger"
+        app:layout_constraintStart_toEndOf="@id/iv_back"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:id="@+id/iv_software"
+        android:layout_width="@dimen/heading_image_size"
+        android:layout_height="@dimen/heading_image_size"
+        android:layout_marginTop="@dimen/margin_bigger"
+        android:layout_marginStart="@dimen/margin_smallest"
+        android:contentDescription="@string/software_proficiency"
+        android:src="@drawable/software"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_software"/>
+
+
+    <TextView
+        android:id="@+id/tv_android_studio"
+        style="@style/Text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/start"
+        android:layout_marginTop="@dimen/margin_bigger"
+        android:text="@string/android_studio"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_android_studio"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/iv_software" />
+
+    <ImageView
+        android:id="@+id/iv_android_studio"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="@dimen/margin_mid"
+        android:layout_marginTop="@dimen/margin_bigger"
+        android:contentDescription="@string/android_studio"
+        android:src="@drawable/android_studio"
+        app:layout_constraintStart_toEndOf="@id/tv_android_studio"
+        app:layout_constraintTop_toBottomOf="@+id/iv_software" />
+
+    <TextView
+        android:id="@+id/tv_kotlin"
+        style="@style/Text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_bigger"
+        android:text="@string/kotlin"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_kotlin"
+        app:layout_constraintEnd_toEndOf="@+id/tv_android_studio"
+        app:layout_constraintTop_toBottomOf="@+id/tv_android_studio" />
+
+    <ImageView
+        android:id="@+id/iv_kotlin"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="@dimen/margin_mid"
+        android:layout_marginTop="@dimen/margin_bigger"
+        android:contentDescription="@string/kotlin"
+        android:src="@drawable/kotlin"
+        app:layout_constraintEnd_toEndOf="@+id/iv_android_studio"
+        app:layout_constraintTop_toBottomOf="@+id/iv_android_studio" />
+
+
+    <TextView
+        android:id="@+id/tv_python"
+        style="@style/Text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_bigger"
+        android:text="@string/python"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_python"
+        app:layout_constraintEnd_toEndOf="@+id/tv_kotlin"
+        app:layout_constraintTop_toBottomOf="@+id/tv_kotlin" />
+
+    <ImageView
+        android:id="@+id/iv_python"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="@dimen/margin_mid"
+        android:layout_marginTop="@dimen/margin_bigger"
+        android:contentDescription="@string/python"
+        android:src="@drawable/python"
+        app:layout_constraintEnd_toEndOf="@+id/iv_kotlin"
+        app:layout_constraintTop_toBottomOf="@+id/tv_kotlin" />
+
+    <TextView
+        android:id="@+id/tv_github"
+        style="@style/Text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_bigger"
+        android:text="@string/github"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_github"
+        app:layout_constraintEnd_toEndOf="@+id/tv_python"
+        app:layout_constraintTop_toBottomOf="@+id/tv_python" />
+
+    <ImageView
+        android:id="@+id/iv_github"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="@dimen/margin_mid"
+        android:layout_marginTop="@dimen/margin_bigger"
+        android:contentDescription="@string/github"
+        android:src="@drawable/github"
+        app:layout_constraintEnd_toEndOf="@+id/iv_python"
+        app:layout_constraintStart_toEndOf="@id/tv_github"
+        app:layout_constraintTop_toBottomOf="@+id/tv_python" />
+
+    <TextView
+        android:id="@+id/tv_skill"
+        style="@style/subHeadingText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/skills"
+        android:layout_marginTop="@dimen/margin_bigger"
+        android:layout_marginStart="@dimen/margin_large"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@id/iv_software"/>
+
+    <ImageView
+        android:id="@+id/iv_skill"
+        android:layout_width="@dimen/heading_image_size"
+        android:layout_height="@dimen/heading_image_size"
+        android:layout_marginStart="@dimen/margin_smallest"
+        android:contentDescription="@string/skills"
+        android:src="@drawable/skill"
+        app:layout_constraintBottom_toBottomOf="@+id/tv_skill"
+        app:layout_constraintStart_toEndOf="@+id/tv_skill" />
+
+    <TextView
+        android:id="@+id/tv_skill1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Text3"
+        android:layout_marginTop="@dimen/margin_bigger"
+        android:text="@string/u25cf_team_work"
+        app:layout_constraintStart_toStartOf="@+id/tv_skill"
+        app:layout_constraintTop_toBottomOf="@id/iv_skill" />
+
+    <TextView
+        android:id="@+id/tv_skill2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_mid"
+        style="@style/Text3"
+        android:text="@string/u25cf_excellent_time_management_skills"
+        app:layout_constraintStart_toStartOf="@+id/tv_skill1"
+        app:layout_constraintTop_toBottomOf="@id/tv_skill1" />
+
+    <TextView
+        android:id="@+id/tv_skill3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/Text3"
+        android:layout_marginTop="@dimen/margin_mid"
+        android:text="@string/u25cf_great_attention_to_detail"
+        app:layout_constraintStart_toStartOf="@+id/tv_skill2"
+        app:layout_constraintTop_toBottomOf="@id/tv_skill2" />
+
+    <TextView
+        android:id="@+id/tv_skill4"
+        style="@style/Text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_mid"
+        android:text="@string/u25cf_strong_communication_skills"
+        app:layout_constraintStart_toStartOf="@+id/tv_skill3"
+        app:layout_constraintTop_toBottomOf="@id/tv_skill3" />
+
+    <TextView
+        android:id="@+id/tv_skill5"
+        style="@style/Text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_mid"
+        android:text="@string/u25cf_unit_testing"
+        app:layout_constraintStart_toStartOf="@+id/tv_skill4"
+        app:layout_constraintTop_toBottomOf="@id/tv_skill4" />
+
+    <TextView
+        android:id="@+id/tv_skill6"
+        style="@style/Text3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_mid"
+        android:text="@string/u25cf_creation_of_erd"
+        app:layout_constraintStart_toStartOf="@+id/tv_skill5"
+        app:layout_constraintTop_toBottomOf="@id/tv_skill5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

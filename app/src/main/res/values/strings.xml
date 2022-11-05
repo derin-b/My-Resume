@@ -1,0 +1,56 @@
+<resources>
+    <string name="app_name">Resume</string>
+    <string name="name">Aderinola Bankole</string>
+    <string name="profession">Mobile Developer</string>
+    <string name="number">+2348106314720</string>
+    <string name="email">derinola.bankole@gmail\n.com</string>
+    <string name="address">Lagos, Nigeria</string>
+    <string name="about">About</string>
+    <string name="education">Education</string>
+    <string name="skills">Skills</string>
+    <string name="interests">Pick Me</string>
+    <string name="my_picture">my picture</string>
+    <string name="about_me_text">I am an Android Developer based in Lagos Nigeria. I\'m passionate about creating a user friendly application that will be able to solve problems we face in our daily lives. My primary goal is to use my great critical thinking skills to develop easier and faster ways of performing daily human activities.</string>
+    <string name="about_me_desc">I have overall 1 year experience in using Kotlin to build user friendly and interactive android applications</string>
+    <string name="github">GitHub</string>
+    <string name="experience">Experience</string>
+    <string name="experience_txt">BabbanGona\nMobile Intern \nFebruary 2022- Present\nPart of the software developers responsible for building applications to track the work and progress of the farmers in the farm.</string>
+    <string name="certification">Certification</string>
+    <string name="android_studio">Android Studio</string>
+    <string name="software_proficiency">Software Proficiency</string>
+    <string name="kotlin">Kotlin</string>
+    <string name="python">Python</string>
+    <string name="u25cf_team_work">● Team work</string>
+    <string name="u25cf_excellent_time_management_skills">● Excellent time management skills</string>
+    <string name="u25cf_unit_testing">● Unit testing</string>
+    <string name="u25cf_creation_of_erd">● Creation of ERD</string>
+    <string name="u25cf_strong_communication_skills">● Strong communication skills</string>
+    <string name="u25cf_great_attention_to_detail">● Great attention to detail</string>
+    <string name="coursera">Coursera</string>
+    <string name="udemy">Udemy</string>
+    <string name="git_amp_github"><![CDATA[Git & GitHub]]></string>
+    <string name="agile_software_development">Agile Software Development</string>
+    <string name="software_development_processes">Software Development Processes</string>
+    <string name="kotlin_for_beginners">Kotlin for Beginners</string>
+    <string name="clean_code_development">Clean Code Development</string>
+    <string name="babban_gona">Babban Gona</string>
+    <string name="tech_accelerator_program">Tech Accelerator Program</string>
+    <string name="february_july_2022">February - July 2022</string>
+    <string name="university_of_lagos">University of Lagos</string>
+    <string name="_2015_2021">2015 – 2021</string>
+    <string name="bsc_mechanical_engineering">BSc. Mechanical Engineering</string>
+    <string name="back">back</string>
+    <string name="about_me">About Me</string>
+    <string name="mobile_intern_n_february_2022_present">Mobile Intern \n February 2022 - present</string>
+    <string name="job_desc">Part of the software developers responsible for building applications to track the work and progress of the farmers in the farm.</string>
+    <string name="my_resume">My Resume</string>
+    <string name="git_link"> <a href="https://github.com/derin-b">My GitHub Profile</a></string>
+    <string name="linked_in"><a href="https://www.linkedin.com/in/aderinola-bankole-8050a6217/">LinkedIn Profile</a></string>
+    <string name="pick_me_text">I am interested in joining a team where I will be able to learn together and work with people who are also willing to learn and share knowledge with the common goal of learning.</string>
+    <string name="things_i_will_be_adding_to_the_team_i_join">Reasons why you need me on your team:</string>
+    <string name="u25cf_interest1">● I\'m a good communicator and this will be useful when we have to collaborate to come up with ideas as a team.</string>
+    <string name="u25cf_interest2">● My knowledge of kotlin will be useful when working on projects. I have also taken courses which I feel will be useful to the team.</string>
+    <string name="u25cf_interest3">● My readiness to work in order to ensure we complete tasks</string>
+    <string name="u25cf_interest4">● I\'m a great team player. I have worked with teams and will not find it hard to do so in the course of this internship</string>
+    <string name="u25cf_interest5">● I do not like to quit which will be useful in situations where tasks we will be given will be difficult for us.</string>
+</resources>
